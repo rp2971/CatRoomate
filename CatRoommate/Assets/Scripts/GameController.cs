@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public int CorrectAnswer;
+    public int WrongAnswer;
+
+    public bool HappyKitty;
+
+    public int SceneNum = 0;
+
+    public int randNum;
+
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);
     }
 
-    // Update is called once per frame
     void Update()
     {
         

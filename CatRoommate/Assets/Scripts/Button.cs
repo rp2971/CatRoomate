@@ -3,34 +3,88 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using TMPro;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 //[System.Serializable]
 public class Button : MonoBehaviour
 {
 
+    public Sprite[] happyCat;
+    public Sprite[] sadCat;
 
+    public GameController GC;
 
+    public SpriteRenderer Cat;
 
-    static void Main ()
-    {
-        string[] dialogue = new string[7];
-        dialogue[0] = "I have a fully furnished place with two bedrooms & I need a roommate! Just a few questions tho…";
-        dialogue[1] = "Are you a night owl or an early riser?";
-        dialogue[2] = "What do you like on your pizza?";
-        dialogue[3] = "Are you allergic to cats?";
-        dialogue[4] = "How do you feel about naps?";
-        dialogue[5] = "Don’t you hate birds?";
-        dialogue[6] = "Can I have some belly rubs?";
-    }
 
     void Start()
     {
-        
+        GC = FindObjectOfType<GameController>(); //Finds the object of that script (so you can use whats in it) 
+
+        if (gameObject.name == "emoji_cat_11")
+        {
+            Cat = GetComponent<SpriteRenderer>();
+        }
     }
 
     void Update()
     {
-        
+        if (gameObject.name == "emoji_cat_11" && SceneManager.GetActiveScene().buildIndex != 0)
+        {
+
+            if (GC.HappyKitty)
+            {
+                Cat.sprite = happyCat[GC.randNum];
+            }
+            else
+            {
+                Cat.sprite = sadCat[GC.randNum];
+            }
+        }
     }
+
+    public void OnClick()
+    {
+
+        if(SceneManager.GetActiveScene().buildIndex == 6)
+        {
+
+
+            if (GC.CorrectAnswer > GC.WrongAnswer)
+            {
+                GC.SceneNum = 7;
+                SceneManager.LoadScene(7);
+            }
+            else
+            {
+                GC.SceneNum = 8; 
+                SceneManager.LoadScene(8);
+            }
+        }
+
+        else
+        {
+            GC.randNum = Random.Range(0, 4);
+
+            if (gameObject.name == "WrongButton")
+            {
+                GC.WrongAnswer += 1;
+                GC.HappyKitty = false;
+
+            }
+            else if (gameObject.name == "RightButton")
+            {
+                GC.CorrectAnswer += 1;
+                GC.HappyKitty = true;
+            }
+
+            GC.SceneNum += 1;
+        }
+
+        SceneManager.LoadScene(GC.SceneNum);
+
+    }
+
 }

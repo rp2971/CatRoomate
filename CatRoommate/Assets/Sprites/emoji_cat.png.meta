@@ -2,18 +2,18 @@ fileFormatVersion: 2
 guid: 44a24ed8933ce4289a59212b934fefec
 TextureImporter:
   fileIDToRecycleName:
-    21300000: emoji_cat_0
-    21300002: emoji_cat_1
-    21300004: emoji_cat_2
-    21300006: emoji_cat_3
-    21300008: emoji_cat_4
-    21300010: emoji_cat_5
-    21300012: emoji_cat_6
-    21300014: emoji_cat_7
-    21300016: emoji_cat_8
-    21300018: emoji_cat_9
-    21300020: emoji_cat_10
-    21300022: emoji_cat_11
+    21300000: OkayCat
+    21300002: EndCat
+    21300004: LaughCat
+    21300006: PikachuCat
+    21300008: HeartCat
+    21300010: EvilSmileCat
+    21300012: KissCat
+    21300014: FailCat
+    21300016: AngryCat
+    21300018: SadCat
+    21300020: WTFCat
+    21300022: StartingCat
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -96,7 +96,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: emoji_cat_0
+      name: OkayCat
       rect:
         serializedVersion: 2
         x: 32
@@ -104,7 +104,7 @@ TextureImporter:
         width: 239
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -116,7 +116,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_1
+      name: EndCat
       rect:
         serializedVersion: 2
         x: 330
@@ -124,7 +124,7 @@ TextureImporter:
         width: 240
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -136,7 +136,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_2
+      name: LaughCat
       rect:
         serializedVersion: 2
         x: 631
@@ -144,7 +144,7 @@ TextureImporter:
         width: 239
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,7 +156,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_3
+      name: PikachuCat
       rect:
         serializedVersion: 2
         x: 932
@@ -164,7 +164,7 @@ TextureImporter:
         width: 239
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,7 +176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_4
+      name: HeartCat
       rect:
         serializedVersion: 2
         x: 1230
@@ -184,7 +184,7 @@ TextureImporter:
         width: 240
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,7 +196,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_5
+      name: EvilSmileCat
       rect:
         serializedVersion: 2
         x: 1531
@@ -204,7 +204,7 @@ TextureImporter:
         width: 239
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -216,7 +216,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_6
+      name: KissCat
       rect:
         serializedVersion: 2
         x: 1830
@@ -224,7 +224,7 @@ TextureImporter:
         width: 239
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_7
+      name: FailCat
       rect:
         serializedVersion: 2
         x: 2130
@@ -244,7 +244,7 @@ TextureImporter:
         width: 240
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,7 +256,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_8
+      name: AngryCat
       rect:
         serializedVersion: 2
         x: 2429
@@ -264,7 +264,7 @@ TextureImporter:
         width: 241
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,7 +276,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_9
+      name: SadCat
       rect:
         serializedVersion: 2
         x: 2730
@@ -284,7 +284,7 @@ TextureImporter:
         width: 239
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_10
+      name: WTFCat
       rect:
         serializedVersion: 2
         x: 3030
@@ -304,7 +304,7 @@ TextureImporter:
         width: 240
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -316,7 +316,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emoji_cat_11
+      name: StartingCat
       rect:
         serializedVersion: 2
         x: 3329
@@ -324,7 +324,7 @@ TextureImporter:
         width: 241
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
